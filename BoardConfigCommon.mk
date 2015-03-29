@@ -18,6 +18,10 @@
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := MSM8660_SURF
 
+# Platform
+TARGET_BOARD_PLATFORM := msm8660
+TARGET_BOARD_PLATFORM_GPU := qcom-adreno200
+
 # Kernel
 BOARD_KERNEL_BASE := 0x40400000
 BOARD_KERNEL_CMDLINE := androidboot.hardware=qcom usb_id_pin_rework=true no_console_suspend=true zcache
